@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark</item>
+        <item name="colorAccent">@color/material_deep_orange_700</item>
+        <item name="android:actionBarStyle">@style/actionbarStyle</item>
+        <item name="android:actionModeBackground">@color/accent_color</item>
+        <item name="android:windowBackground">@color/color_window_background</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fast_scroll_handle</item>
+        <item name="android:fastScrollTrackDrawable">@drawable/fast_scroll_track</item>
+    </style>
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+        <!--<item name="colorPrimary">@color/app_primary</item>-->
+        <!--<item name="colorPrimaryDark">@color/app_primary_dark</item>-->
+        <!--<item name="colorAccent">@color/material_deep_orange_700</item>-->
+        <!--<item name="android:actionBarStyle">@style/actionbarStyle</item>-->
+        <!--<item name="android:actionModeBackground">@color/accent_color</item>-->
+        <!--<item name="android:windowBackground">@color/color_window_background</item>-->
+        <!--<item name="android:fastScrollThumbDrawable">@drawable/fast_scroll_handle</item>-->
+        <!--<item name="android:fastScrollTrackDrawable">@drawable/fast_scroll_track</item>-->
+    <!--</style>-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar"/>
+
+    <!-- Application theme. -->
+
+
+    <!-- Theme for translucent system bars -->
+    <style name="AppTranslucentTheme" parent="AppTheme">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="overflowMenuStyle" parent="@android:style/Widget.Holo.PopupMenu">
+        <item name="android:background">@color/accent_color</item>
+        <item name="android:popupBackground">@color/accent_color</item>
+    </style>
+
+    <style name="actionbarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/accent_color</item>
+        <!-- <item name="android:popupMenuStyle">@style/overflowMenuStyle</item> -->
+    </style>
+
+</resources>

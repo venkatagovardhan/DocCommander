@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_id": "oraganizerdoc",
+    "project_number": "406083831189",
+    "name": "OraganizerDoc"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406083831189:android:fed618f50b5c5af8",
+        "client_id": "android:com.example.venkatagovardhan.docorganizer",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.venkatagovardhan.docorganizer",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406083831189-60ejvm12mtgckgucsrlgrvh96347kg4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.venkatagovardhan.docorganizer",
+            "certificate_hash": "7883A3984E7E7AEA3FCA0F7933946E4851891173"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
